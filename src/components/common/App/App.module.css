@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  width: calc(210px * 4);
+  height: calc(297px * 4);
+  background-image: linear-gradient(45deg, #179678, #179678, #24C09A);
+  margin: 0 auto;
+  z-index: -1;
+  margin-top: 20px;
+}

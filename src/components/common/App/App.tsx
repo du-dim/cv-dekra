@@ -1,13 +1,12 @@
-import React from 'react';
-import './App.module.css';
 import { Right } from '../Right';
 import { Left } from '../Left';
+import styles from './App.module.css';
 
 export const App = () => {
   return (
-    <div className='App'>
-      <Right />
+    <div className={styles.container}>
       <Left />
+      <Right />
     </div>
   );
 };

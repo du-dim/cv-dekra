@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  width: 280px;
+  height: 410px;  
+  background-size: cover;
+  background-image: url('../../../assets/images/D-shodow.png');  
+  z-index: 3;
+}
