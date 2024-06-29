@@ -1,8 +1,6 @@
 .container {
   display: flex;
+  flex-direction: column;
   width: 280px;
-  height: 410px;  
-  background-size: cover;
-  background-image: url('../../../assets/images/D-shodow.png');  
-  z-index: 3;
+  height: 100%;
 }
