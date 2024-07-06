@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  height: 122px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.content {
+  width: calc(100% - 30px);
+  color: var(--light);
+  font-size: var(--fd);
+  color: var(--dark);
+  text-align: justify;  
+}

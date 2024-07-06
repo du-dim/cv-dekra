@@ -1,8 +1,14 @@
 .container {
   display: flex;
   width: 100%;
-  background-color: #38CD8E;
+  background-color: var(--green);
   height: 68px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);  
   z-index: 2;
+}
+.title {
+  margin: 0 auto;
+  align-self: center;
+  font-size: var(--fh3);
+  color: var(--dark);
 }

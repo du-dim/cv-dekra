@@ -9,6 +9,10 @@ html {
   text-decoration: none;
   list-style-type: none;
   box-sizing: border-box;
+  font-family:'Calibri', sans-serif;
+  font-family:'Roboto', sans-serif;
+  /* font-family:'Iner', sans-serif; */
+
 }
 *:before,
 *:after {

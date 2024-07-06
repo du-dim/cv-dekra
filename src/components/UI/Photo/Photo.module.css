@@ -4,13 +4,13 @@
   height: 410px;  
   background-size: cover;
   background-image: url('../../../assets/images/D-shodow.png');  
-  z-index: 3;
+  z-index: 3;  
 }
 .frame {
+  display: block;
   width: 182px;
   height: 260px; 
-  margin-left: 46px;
-  margin-top: 50px;
+  margin-left: 46px;  
   border-radius: 10px 10px 0 0;
   border: 4px rgb(255, 255, 255) solid;
   /* background-color: blue; */
@@ -18,9 +18,22 @@
   clip-path: polygon(0 0, 100% 0, 100% 58%, 0% 100%);   
   overflow: hidden;
 }
+.connect {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  height: 100%
+}
 .photo {
   margin-top: -210px;
   margin-left: -140px;
   width: 370px;
   height: 480px; 
+}
+.shadow {
+  width: 2px;
+  margin-left: -6px;
+  margin-top: 5px;
+  height: 145px;
+  box-shadow: 10px 0px 8px rgba(81, 81, 81, 0.782);  
 }

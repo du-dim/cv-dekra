@@ -1,6 +1,20 @@
 .container {
   display: flex;
+  flex-direction: column;
   width: 100%;
   height: 170px;
   max-height: 170px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.name {
+  font-size: var(--fh1);
+  color: var(--light);
+  text-shadow: 0 10px 10px rgba(93, 100, 110, 0.816);
+}
+.profession {
+  font-size: var(--fh3);
+  color: var(--light);
+  text-shadow: 0 10px 10px rgba(93, 100, 110, 0.816);
 }

@@ -1,19 +1,16 @@
 :root {
     /*-------color------*/    
-    --light: #c6f6d0;
-    --dark: #e4d08a;
-    --dim: #f7f3c1;
+    --green: #38CD8E;
+    --green-o: #38cd8f42;
 
-    --front-app: #f6f6f6;
-    --background: #6d597d;    
+    --light: #edf2f2;    
+    --dark: #102426;    
 
     /*-------fonts------*/
-    --fh1: 26px;
-    --fh2: 22px;
-    --fh3: 20px;
+    --fh1: 36px;
+    --fh2: 27px;
+    --fh3: 24px;
     --fh4: 18px;
-    --fd: 16px;
-    --fp: 14px;
-    --fs: 12px;
+    --fd: 15px;    
   }
   

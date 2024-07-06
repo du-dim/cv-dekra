@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  margin-top: -50px;  
+  background-color: var(--green-o); 
+  font-size: var(--fh3);
+  color: var(--light);
+}
+.list {
+  display: flex;
+  flex-direction: column;  
+  justify-content: space-around;
+  padding: 15px;    
+  height: 135px;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.icon {  
+  fill: var(--light); 
+  width: 20px;
+  height: 18px;
+}
+.text {
+  color: var(--light);
+  font-size: var(--fd);
+  letter-spacing: 1px;
+  margin-right: -10px;
+}
